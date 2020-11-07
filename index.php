@@ -20,7 +20,7 @@ class FileSearch
         return round(microtime(true) - $this->time, 4);
     }
     /**
-     *Создание файла со значениями
+     *Создание файла с ключами и значениями
      * @param string $fileName
      * @param int $count
      */
@@ -37,7 +37,7 @@ class FileSearch
 	}
 
     /**
-     *Поиск в файле значения
+     *Поиск в файле ключа
      * @param string $fileName
      * @param string $search
      * @return string
